@@ -1,0 +1,41 @@
+page-landing {
+    .scroll-content {
+        background: url("../assets/images/bg.jpg") !important;
+        background-size: cover !important;
+        align-content: center !important;
+        
+    }
+    .grid-half ion-row {
+        height: 50%;
+        vertical-align: text-bottom;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .grid-half ion-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 5px 5px;
+        align-content: center;
+        
+        }
+    .rounded-border{
+        border-radius: 100% !important; 
+        border: 4px solid white !important;
+        padding: 20px; 
+        width: 200px;
+        height: 200px;  
+        
+    }
+    .hidden{
+        display: none !important;
+    }
+    button{
+        color: white !important;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+}
